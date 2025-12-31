@@ -1,0 +1,78 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+
+# TensorFlow
+*.pbtxt
+events.out.tfevents.*
+graph.pbtxt
+checkpoint
+*.ckpt
+*.ckpt.meta
+*.ckpt.index
+*.data-*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large files
+vgg16.npy
+*.npy
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Training data (keep directory structure but exclude contents)
+data/trainA/*
+data/trainB/*
+data/indoor/*
+data/outdoor/*
+data/input/*
+data/gt/*
+data/*.tfrecords
+
+# Models and checkpoints
+checkpoints/
+models/*.pb
+pretrained/
+
+# Logs
+logs/
+*.log
+
+# Results and outputs
+result/
+results/
+*.jpg
+*.png
+*_hazyimage.zip
+*_images.zip
+
+# Temporary files
+*.tmp
+temp/
+tmp/
